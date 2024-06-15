@@ -9,7 +9,7 @@ import { Button } from '@mui/material';
 
 function App() {
   const [listaAutores, setListaAutores] = useState([]);
-  const URL_BASE = 'http://localhost:8000/api';
+  const URL_BASE = 'https://autores-fhqr.onrender.com/api';
   const navigate = useNavigate();
 
   useEffect(() => {
